@@ -12,7 +12,9 @@ authors = [
 ]
 requires-python = ">=3.10,<4.0"
 dependencies = [
+    "dotenv>=0.9.9",
     "eaglewrapper>=1.1.1",
+    "openai>=2.3.0",
 ]
 
 [project.urls]  # https://packaging.python.org/en/latest/specifications/well-known-project-urls/#well-known-labels
